@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ilabquality.features.Job_Search_Using_CSV_DataSource_Test" time="7.202" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\A102418\Downloads\Dilo tjaka\ilabQualityAssesment-master\ilabQualityAssesment-master"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\A102418\Downloads\Dilo tjaka\ilabQualityAssesment-master\ilabQualityAssesment-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\A102418\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\TPS\Endpoint Forensics\;C:\Program Files (x86)\TPS\Endpoint Forensics\;C:\Program Files (x86)\TPS\Endpoint Forensics\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\bin;${maven.home}\bin;C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;&quot;C:\Users\A102418\AppData\Local\Android\Sdk\tools;C:\Users\A102418\AppData\Local\Android\Sdk\platform-tools&quot;;C:\Users\A102418\AppData\Local\Android\Sdk\platform-tools;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.4\bin;;C:\Users\A102418\AppData\Local\Android\Sdk\platform-tools;;C:\Users\A102418\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\A102418"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="A102418"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="should_displayValidation_message_asking_for_an_upload[0]" classname="com.ilabquality.features.Job_Search_Using_CSV_DataSource_Test" time="5.151">
+    <error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (unknown error: Chrome failed to start: exited normally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;32C42Z2&apos;, ip: &apos;192.168.137.148&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00AE9563+2725219]&#10;	Ordinal0 [0x009E8551+1672529]&#10;	Ordinal0 [0x008D0359+525145]&#10;	Ordinal0 [0x0085D90B+55563]&#10;	Ordinal0 [0x0087CC37+183351]&#10;	Ordinal0 [0x0087CA3D+182845]&#10;	Ordinal0 [0x0087A94B+174411]&#10;	Ordinal0 [0x00862528+75048]&#10;	Ordinal0 [0x008635A0+79264]&#10;	Ordinal0 [0x00863539+79161]&#10;	Ordinal0 [0x009FD607+1758727]&#10;	GetHandleVerifier [0x00C06546+1050150]&#10;	GetHandleVerifier [0x00C06291+1049457]&#10;	GetHandleVerifier [0x00C110D7+1094071]&#10;	GetHandleVerifier [0x00C06B46+1051686]&#10;	Ordinal0 [0x009F5B06+1727238]&#10;	Ordinal0 [0x009FEB7B+1764219]&#10;	Ordinal0 [0x009FECE3+1764579]&#10;	Ordinal0 [0x00A14C05+1854469]&#10;	BaseThreadInitThunk [0x755D6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77C68944+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77C68914+180]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '32C42Z2', ip: '192.168.137.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00AE9563+2725219]
+	Ordinal0 [0x009E8551+1672529]
+	Ordinal0 [0x008D0359+525145]
+	Ordinal0 [0x0085D90B+55563]
+	Ordinal0 [0x0087CC37+183351]
+	Ordinal0 [0x0087CA3D+182845]
+	Ordinal0 [0x0087A94B+174411]
+	Ordinal0 [0x00862528+75048]
+	Ordinal0 [0x008635A0+79264]
+	Ordinal0 [0x00863539+79161]
+	Ordinal0 [0x009FD607+1758727]
+	GetHandleVerifier [0x00C06546+1050150]
+	GetHandleVerifier [0x00C06291+1049457]
+	GetHandleVerifier [0x00C110D7+1094071]
+	GetHandleVerifier [0x00C06B46+1051686]
+	Ordinal0 [0x009F5B06+1727238]
+	Ordinal0 [0x009FEB7B+1764219]
+	Ordinal0 [0x009FECE3+1764579]
+	Ordinal0 [0x00A14C05+1854469]
+	BaseThreadInitThunk [0x755D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77C68944+228]
+	RtlGetAppContainerNamedObjectPath [0x77C68914+180]
+). See below for more details.
+	at com.ilabquality.tasks.OpenTheApplication.performAs(OpenTheApplication.java:15)
+	at com.ilabquality.features.Job_Search_Using_CSV_DataSource_Test.should_displayValidation_message_asking_for_an_upload(Job_Search_Using_CSV_DataSource_Test.java:51)
+</error>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Job search using CSV data source test
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: should_displayValidation_message_asking_for_an_upload[0]
+-------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+Feb 25, 2021 6:28:08 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches:  --start-maximized;\n      ..., goog:chromeOptions: {args: [--start-maximized;\n, --test-type;\n, --no-sandbox;\n, --ignore-certificate-errors;\n, --disable-popup-blocking;\n, --disable-default-apps;\n, --disable-extensions-file-a..., --disable-infobars, --disable-gpu\n, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 13454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="should_displayValidation_message_asking_for_an_upload[1]" classname="com.ilabquality.features.Job_Search_Using_CSV_DataSource_Test" time="2.051">
+    <error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (unknown error: Chrome failed to start: exited normally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;32C42Z2&apos;, ip: &apos;192.168.137.148&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00AE9563+2725219]&#10;	Ordinal0 [0x009E8551+1672529]&#10;	Ordinal0 [0x008D0359+525145]&#10;	Ordinal0 [0x0085D90B+55563]&#10;	Ordinal0 [0x0087CC37+183351]&#10;	Ordinal0 [0x0087CA3D+182845]&#10;	Ordinal0 [0x0087A94B+174411]&#10;	Ordinal0 [0x00862528+75048]&#10;	Ordinal0 [0x008635A0+79264]&#10;	Ordinal0 [0x00863539+79161]&#10;	Ordinal0 [0x009FD607+1758727]&#10;	GetHandleVerifier [0x00C06546+1050150]&#10;	GetHandleVerifier [0x00C06291+1049457]&#10;	GetHandleVerifier [0x00C110D7+1094071]&#10;	GetHandleVerifier [0x00C06B46+1051686]&#10;	Ordinal0 [0x009F5B06+1727238]&#10;	Ordinal0 [0x009FEB7B+1764219]&#10;	Ordinal0 [0x009FECE3+1764579]&#10;	Ordinal0 [0x00A14C05+1854469]&#10;	BaseThreadInitThunk [0x755D6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77C68944+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77C68914+180]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '32C42Z2', ip: '192.168.137.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00AE9563+2725219]
+	Ordinal0 [0x009E8551+1672529]
+	Ordinal0 [0x008D0359+525145]
+	Ordinal0 [0x0085D90B+55563]
+	Ordinal0 [0x0087CC37+183351]
+	Ordinal0 [0x0087CA3D+182845]
+	Ordinal0 [0x0087A94B+174411]
+	Ordinal0 [0x00862528+75048]
+	Ordinal0 [0x008635A0+79264]
+	Ordinal0 [0x00863539+79161]
+	Ordinal0 [0x009FD607+1758727]
+	GetHandleVerifier [0x00C06546+1050150]
+	GetHandleVerifier [0x00C06291+1049457]
+	GetHandleVerifier [0x00C110D7+1094071]
+	GetHandleVerifier [0x00C06B46+1051686]
+	Ordinal0 [0x009F5B06+1727238]
+	Ordinal0 [0x009FEB7B+1764219]
+	Ordinal0 [0x009FECE3+1764579]
+	Ordinal0 [0x00A14C05+1854469]
+	BaseThreadInitThunk [0x755D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77C68944+228]
+	RtlGetAppContainerNamedObjectPath [0x77C68914+180]
+). See below for more details.
+	at com.ilabquality.tasks.OpenTheApplication.performAs(OpenTheApplication.java:15)
+	at com.ilabquality.features.Job_Search_Using_CSV_DataSource_Test.should_displayValidation_message_asking_for_an_upload(Job_Search_Using_CSV_DataSource_Test.java:51)
+</error>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: com.ilabquality.features
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Should display validation message asking for an upload
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Puleng opens the I lab landing page
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Job search using CSV data source test
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: should_displayValidation_message_asking_for_an_upload[1]
+-------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+Feb 25, 2021 6:28:14 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches:  --start-maximized;\n      ..., goog:chromeOptions: {args: [--start-maximized;\n, --test-type;\n, --no-sandbox;\n, --ignore-certificate-errors;\n, --disable-popup-blocking;\n, --disable-default-apps;\n, --disable-extensions-file-a..., --disable-infobars, --disable-gpu\n, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 41225
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>
