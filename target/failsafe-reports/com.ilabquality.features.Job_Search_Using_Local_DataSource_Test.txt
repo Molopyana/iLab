@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: com.ilabquality.features.Job_Search_Using_Local_DataSource_Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.875 sec <<< FAILURE! - in com.ilabquality.features.Job_Search_Using_Local_DataSource_Test
+should_displayValidation_message_asking_for_an_upload[0](com.ilabquality.features.Job_Search_Using_Local_DataSource_Test)  Time elapsed: 2.468 sec  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '32C42Z2', ip: '192.168.137.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00AE9563+2725219]
+	Ordinal0 [0x009E8551+1672529]
+	Ordinal0 [0x008D0359+525145]
+	Ordinal0 [0x0085D90B+55563]
+	Ordinal0 [0x0087CC37+183351]
+	Ordinal0 [0x0087CA3D+182845]
+	Ordinal0 [0x0087A94B+174411]
+	Ordinal0 [0x00862528+75048]
+	Ordinal0 [0x008635A0+79264]
+	Ordinal0 [0x00863539+79161]
+	Ordinal0 [0x009FD607+1758727]
+	GetHandleVerifier [0x00C06546+1050150]
+	GetHandleVerifier [0x00C06291+1049457]
+	GetHandleVerifier [0x00C110D7+1094071]
+	GetHandleVerifier [0x00C06B46+1051686]
+	Ordinal0 [0x009F5B06+1727238]
+	Ordinal0 [0x009FEB7B+1764219]
+	Ordinal0 [0x009FECE3+1764579]
+	Ordinal0 [0x00A14C05+1854469]
+	BaseThreadInitThunk [0x755D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77C68944+228]
+	RtlGetAppContainerNamedObjectPath [0x77C68914+180]
+). See below for more details.
+	at com.ilabquality.tasks.OpenTheApplication.performAs(OpenTheApplication.java:15)
+	at com.ilabquality.features.Job_Search_Using_Local_DataSource_Test.should_displayValidation_message_asking_for_an_upload(Job_Search_Using_Local_DataSource_Test.java:73)
+
+should_displayValidation_message_asking_for_an_upload[1](com.ilabquality.features.Job_Search_Using_Local_DataSource_Test)  Time elapsed: 2.812 sec  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '32C42Z2', ip: '192.168.137.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00AE9563+2725219]
+	Ordinal0 [0x009E8551+1672529]
+	Ordinal0 [0x008D0359+525145]
+	Ordinal0 [0x0085D90B+55563]
+	Ordinal0 [0x0087CC37+183351]
+	Ordinal0 [0x0087CA3D+182845]
+	Ordinal0 [0x0087A94B+174411]
+	Ordinal0 [0x00862528+75048]
+	Ordinal0 [0x008635A0+79264]
+	Ordinal0 [0x00863539+79161]
+	Ordinal0 [0x009FD607+1758727]
+	GetHandleVerifier [0x00C06546+1050150]
+	GetHandleVerifier [0x00C06291+1049457]
+	GetHandleVerifier [0x00C110D7+1094071]
+	GetHandleVerifier [0x00C06B46+1051686]
+	Ordinal0 [0x009F5B06+1727238]
+	Ordinal0 [0x009FEB7B+1764219]
+	Ordinal0 [0x009FECE3+1764579]
+	Ordinal0 [0x00A14C05+1854469]
+	BaseThreadInitThunk [0x755D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77C68944+228]
+	RtlGetAppContainerNamedObjectPath [0x77C68914+180]
+). See below for more details.
+	at com.ilabquality.tasks.OpenTheApplication.performAs(OpenTheApplication.java:15)
+	at com.ilabquality.features.Job_Search_Using_Local_DataSource_Test.should_displayValidation_message_asking_for_an_upload(Job_Search_Using_Local_DataSource_Test.java:73)
+
